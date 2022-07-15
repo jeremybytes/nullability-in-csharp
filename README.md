@@ -7,7 +7,7 @@ This repository contains sample code for an upcoming series of articles about nu
 ## Articles  
 *Links will be added as the articles are completed.*
 
-* &lt;Nullable&gt;enable&lt;\Nullable&gt; - What it means and what it doesn't mean
+* Nullability in C# - What it is and what it isn't
 * Null Conditional operator in C# - ?.
 * Null Forgiving operator in C# - !
 * Null Coalescing operator in C# - ?? & ??=
