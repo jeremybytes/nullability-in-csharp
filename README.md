@@ -7,7 +7,7 @@ This repository contains sample code for an upcoming series of articles about nu
 ## Articles  
 *Links will be added as the articles are completed.*
 
-* Nullability in C# - What it is and what it isn't
+* [Nullability in C# - What it is and what it is not](https://jeremybytes.blogspot.com/2022/07/nullability-in-c-what-it-is-and-what-it.html)
 * Null Conditional operator in C# - ?.
 * Null Forgiving operator in C# - !
 * Null Coalescing operator in C# - ?? & ??=
