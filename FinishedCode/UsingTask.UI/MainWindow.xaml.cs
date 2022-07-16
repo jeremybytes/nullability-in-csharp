@@ -98,10 +98,10 @@ public partial class MainWindow : Window
 
     private void CancelButton_Click(object sender, RoutedEventArgs e)
     {
-        if (tokenSource is not null)
-            tokenSource.Cancel();
+        //if (tokenSource is not null)
+        //    tokenSource.Cancel();
 
-        //tokenSource?.Cancel();
+        tokenSource?.Cancel();
     }
 
     private void ClearListBox()
