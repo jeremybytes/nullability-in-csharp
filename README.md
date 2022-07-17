@@ -8,9 +8,9 @@ This repository contains sample code for an upcoming series of articles about nu
 *Links will be added as the articles are completed.*
 
 * [Nullability in C# - What it is and what it is not](https://jeremybytes.blogspot.com/2022/07/nullability-in-c-what-it-is-and-what-it.html)
-* Null Conditional operator in C# - ?.
+* Null Conditional operators in C# - ?. & ?[]
 * Null Forgiving operator in C# - !
-* Null Coalescing operator in C# - ?? & ??=
+* Null Coalescing operators in C# - ?? & ??=
 
 ---  
 
@@ -48,7 +48,7 @@ The following lists the relevant files where you can find the code used in the a
 
 ### Project Files
 
-* StartingCode/UsingTask.UI/UsingTask.UI.csproj  
+* [StartingCode/UsingTask.UI/UsingTask.UI.csproj](/StartingCode/UsingTask.UI/UsingTask.UI.csproj)  
 The project file for the desktop application. This version does **not** have nullability enabled.  
 
 * StartingCode/UsingTask.Library/UsingTask.Library.csproj  
