@@ -51,27 +51,27 @@ The following lists the relevant files where you can find the code used in the a
 * [StartingCode/UsingTask.UI/UsingTask.UI.csproj](/StartingCode/UsingTask.UI/UsingTask.UI.csproj)  
 The project file for the desktop application. This version does **not** have nullability enabled.  
 
-* StartingCode/UsingTask.Library/UsingTask.Library.csproj  
+* [StartingCode/UsingTask.Library/UsingTask.Library.csproj](/StartingCode/UsingTask.Library/UsingTask.Library.csproj)  
 The project file for the code library. This version does **not** have nullability enabled.  
 
-* FinishedCode/UsingTask.UI/UsingTask.UI.csproj  
+* [FinishedCode/UsingTask.UI/UsingTask.UI.csproj](/FinishedCode/UsingTask.UI/UsingTask.UI.csproj)  
 The project file for the desktop application. This version **does** have nullability enabled.  
 
-* FinishedCode/UsingTask.Library/UsingTask.Library.csproj  
+* [FinishedCode/UsingTask.Library/UsingTask.Library.csproj](/FinishedCode/UsingTask.Library/UsingTask.Library.csproj)  
 The project file for the code library. This version **does** have nullability enabled.  
 
 ### Code Files
 
-* StartingCode/UsingTask.UI/MainWindow.xaml.cs  
+* [StartingCode/UsingTask.UI/MainWindow.xaml.cs](/StartingCode/UsingTask.UI/MainWindow.xaml.cs)  
 NO NULL CHECKS - The code-behind for the application (where the application code lives)  
 
-* StartingCode/UsingTask.Library/PersonReader.cs  
+* [StartingCode/UsingTask.Library/PersonReader.cs](/StartingCode/UsingTask.Library/PersonReader.cs)  
 NO NULL CHECKS - The asynchronous code that gets data from a web service  
 
-* FinishedCode/UsingTask.UI/MainWindow.xaml.cs  
+* [FinishedCode/UsingTask.UI/MainWindow.xaml.cs](/FinishedCode/UsingTask.UI/MainWindow.xaml.cs)  
 NULL CHECKS - The code-behind for the application (where the application code lives)  
 
-* FinishedCode/UsingTask.Library/PersonReader.cs  
+* [FinishedCode/UsingTask.Library/PersonReader.cs](/FinishedCode/UsingTask.Library/PersonReader.cs)  
 NULL CHECKS - The asynchronous code that gets data from a web service  
 
 ---  
