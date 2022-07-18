@@ -8,9 +8,9 @@ This repository contains sample code for an upcoming series of articles about nu
 *Links will be added as the articles are completed.*
 
 * [Nullability in C# - What it is and what it is not](https://jeremybytes.blogspot.com/2022/07/nullability-in-c-what-it-is-and-what-it.html)
-* Null Conditional operators in C# - ?. & ?[]
+* [Null Conditional operators in C# - ?. and ?[]](https://jeremybytes.blogspot.com/2022/07/null-conditional-operators-in-c-and.html)
 * Null Forgiving operator in C# - !
-* Null Coalescing operators in C# - ?? & ??=
+* Null Coalescing operators in C# - ?? and ??=
 
 ---  
 
