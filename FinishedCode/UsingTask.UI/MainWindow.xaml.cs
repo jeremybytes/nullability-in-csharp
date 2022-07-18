@@ -22,6 +22,12 @@ public partial class MainWindow : Window
         //    return reader;
         //}
 
+        //get
+        //{
+        //    reader ??= new PersonReader();
+        //    return reader;
+        //}
+
         //get { return reader ??= new PersonReader(); }
 
         get => reader ??= new PersonReader();
