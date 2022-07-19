@@ -33,7 +33,7 @@ public partial class MainWindow : Window
             if (task.IsFaulted)
             {
                 foreach (var ex in task.Exception.Flatten().InnerExceptions)
-                    MessageBox.Show($"ERROR\n{ex.GetType()}\n{ex.Message}");
+                    Log(ex);
             }
             if (task.IsCanceled)
             {
@@ -68,7 +68,7 @@ public partial class MainWindow : Window
         }
         catch (Exception ex)
         {
-            MessageBox.Show($"ERROR\n{ex.GetType()}\n{ex.Message}");
+            Log(ex);
         }
         finally
         {
@@ -84,5 +84,14 @@ public partial class MainWindow : Window
     private void ClearListBox()
     {
         PersonListBox.Items.Clear();
+    }
+
+    private void Log(Exception ex)
+    {
+        // NOTE: This is for example purposes only
+        // It is generally a bad idea to show a raw exception
+        // message in the application. But it is available
+        // for your normal logging system.
+        MessageBox.Show($"ERROR\n{ex.GetType()}\n{ex.Message}");
     }
 }
